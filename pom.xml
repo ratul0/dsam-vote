@@ -72,16 +72,15 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-gcp-starter-data-datastore</artifactId>
-            <version>1.1.0.M2</version>
+            <version>1.2.1.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.9</version>
         </dependency>
     </dependencies>
-    <repositories>
-        <repository>
-            <id>spring-milestone</id>
-            <name>Spring Milestones</name>
-            <url>http://repo.spring.io/libs-milestone</url>
-        </repository>
-    </repositories>
+
 
     <build>
         <plugins>
